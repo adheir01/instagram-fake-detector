@@ -198,12 +198,4 @@ The academic term for what this tool does is **inauthentic behaviour detection**
 - [ ] Multi-account comparison for sponsor ROI scoring (Project 02)
 - [ ] Anomaly detection on engagement time series (Project 03)
 
----
 
-## LinkedIn post when you ship this
-
-> "Brands lose over a billion dollars a year sponsoring influencers with fake audiences.
-> I built a tool that scores any public Instagram profile for fake followers — engagement analysis, ghost follower estimation, posting pattern detection.
-> Stack: Python · XGBoost · PostgreSQL · Streamlit · Docker · Apify · Claude API
-> What I found interesting: engagement rate thresholds can't be flat — a 274M follower account and a 5K follower account have completely different natural engagement rates. The model has to know the difference.
-> Repo + demo in comments."
