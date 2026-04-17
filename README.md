@@ -69,7 +69,7 @@ These are documented intentionally. Understanding where a model breaks is as imp
 | ML model | XGBoost, scikit-learn |
 | Database | PostgreSQL |
 | App | Streamlit |
-| AI narrative | Anthropic Claude API (optional) |
+| AI narrative | Gemini API (optional) |
 | PDF export | ReportLab |
 | Infrastructure | Docker, Docker Compose |
 
@@ -150,7 +150,7 @@ git clone https://github.com/adheir01/instagram-fake-detector.git
 cd instagram-fake-detector
 cp .env.example .env
 # Add your APIFY_API_TOKEN to .env
-# Add ANTHROPIC_API_KEY to .env if you want AI summaries
+# Add GEMINI_API_KEY to .env if you want AI summaries
 ```
 
 ### Run
