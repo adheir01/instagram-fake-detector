@@ -1,0 +1,11 @@
+﻿.env
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+data/raw/
+data/processed/
+data/labeled/
+.DS_Store
+venv/
+.venv/
