@@ -2,7 +2,7 @@
 
 A data tool that scores Instagram profiles for fake and purchased followers, giving sponsors a clear signal before committing budget to an influencer deal.
 
-**Built by [Tobi Kazeem](https://www.linkedin.com/in/tobi-a-k-01/)** · Senior Data Analyst · Hamburg, Germany
+**Built by [Tobi](https://www.linkedin.com/in/tobi-a-k-01/)** .
 
 ---
 
