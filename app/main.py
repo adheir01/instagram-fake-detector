@@ -12,8 +12,8 @@ from src.scraper.apify_scraper import scrape_profile
 from src.scraper.profile_parser import parse_profile, parse_posts
 from src.features.feature_pipeline import build_feature_vector
 from src.model.predict import predict
-from src.api.claude_analyzer import generate_summary
-from src.api.pdf_report import generate_pdf_report
+from src.services.llm_analyzer import generate_summary
+from src.services.pdf_report import generate_pdf_report
 from app.components import render_score_gauge, render_signal_cards, render_profile_stats
 
 st.set_page_config(
@@ -95,7 +95,7 @@ if "features" in st.session_state:
     st.divider()
     st.subheader("AI Sponsor Recommendation")
 
-    if st.button("Generate AI Summary (uses Claude API)"):
+    if st.button("Generate AI Summary"):
         with st.spinner("Asking Claude..."):
             summary = generate_summary(username, profile, features, result)
             st.session_state["ai_summary"] = summary
