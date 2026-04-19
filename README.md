@@ -99,7 +99,7 @@ cp .env.example .env
 # Add APIFY_API_TOKEN to .env
 # Add GEMINI_API_KEY to .env for AI summaries
 docker-compose up --build
-# App runs at http://localhost:8501
+# App runs at http://localhost:8502
 ```
 
 **Test without API credits:** Click **Try Demo Data** — loads from `data/fixtures/` with no API calls.
