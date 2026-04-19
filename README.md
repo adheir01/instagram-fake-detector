@@ -136,5 +136,3 @@ Academic term: **inauthentic behaviour detection**
 ## Disclaimer
 
 This project is for educational purposes only. All data is collected via official Apify actors interacting with publicly available Instagram data. Users are responsible for ensuring compliance with Instagram's Terms of Service and applicable data protection laws.
-
-> **Known improvement:** Package management will migrate from pip to [uv](https://github.com/astral-sh/uv) in a future update. DB schema management will move from raw SQL to SQLAlchemy in Project 02.
