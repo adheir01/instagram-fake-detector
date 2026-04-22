@@ -2,7 +2,7 @@
 
 A production-style data system for evaluating influencer audience authenticity using behavioral signals and statistical heuristics, designed to support marketing spend decisions.
 
-**Built by [Tobi](https://www.linkedin.com/in/tobi-a-k-01/)**,  Senior Data Analyst as a part of my data portfolio. :)
+**Built by [Tobi](https://www.linkedin.com/in/tobi-a-k-01/)** - Data Analyst / Data Engineering Projects
 
 ---
 
@@ -46,7 +46,7 @@ Input any public Instagram username and get:
 - **Ghost follower estimate is a heuristic** — not a direct measurement. Real detection requires follower-level scraping.
 - **Engagement decay varies by niche** — a meme account and a B2B thought leader behave differently at the same follower count.
 - **Private accounts lose engagement data** — scoring falls back to profile-level signals only with lower confidence.
-- **Classifier needs labeled data** — current scoring is rule-based. XGBoost model is scaffolded and ready to train with 200+ labeled profiles.
+- **Classifier needs labeled data** —  Current version uses a rule-based scoring system designed for interpretability. A supervised model (XGBoost) is implemented and will be trained as labeled data volume increases.
 
 ---
 
