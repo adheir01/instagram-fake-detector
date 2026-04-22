@@ -20,10 +20,10 @@ Influencer marketing fraud costs brands an estimated $1.3 billion annually. Smal
 
 Input any public Instagram username and get:
 
-- A **Fake Score (0–100)** with risk level — low / medium / high
-- A **signal breakdown** explaining which patterns drove the score
-- An optional **AI-generated sponsor recommendation** via Gemini API
-- A downloadable **PDF report** for sharing with stakeholders
+- An **Authenticity Score (0–100)** caliberated for sponsorship risk with levels — low / medium / high
+- **Primary risk drivers (interpretable signals)** explaining which patterns drove the score
+- An optional Sponsor-ready **AI-generated sponsor recommendation** via Gemini API
+- A downloadable **PDF report** for stakeholder communication
 
 ---
 
@@ -33,8 +33,8 @@ Input any public Instagram username and get:
 |---|---|---|
 | Engagement rate | (likes + comments) / followers — tiered by account size | Below 0.5% for small accounts |
 | Follower/following ratio | Followers vs accounts followed back | Close to 1:1 |
-| Ghost follower estimate | Expected vs actual engagement gap | Above 60% |
-| Posting consistency | Coefficient of variation of gaps between posts | CV below 0.2 (robotic schedule) |
+| Engagement deviation vs expected baseline (proxy for inactive or inorganic audience) | Expected vs actual engagement gap | Above 60% |
+| Temporal posting variance (detects automated or non-human scheduling patterns) | Coefficient of variation of gaps between posts | CV below 0.2 (robotic schedule) |
 | Bio completeness | Name, bio text, external URL present | Below 30% complete |
 
 **Note on tiered baselines:** Engagement rate naturally decays at scale. A 274M follower account will never hit 3% engagement — that's normal, not suspicious. The model applies size-adjusted thresholds rather than a flat baseline.
@@ -85,6 +85,20 @@ Optional: Gemini API generates sponsor recommendation
     ↓
 Streamlit UI + PDF export
 ```
+---
+[Apify Actors]
+      ↓
+[Ingestion Layer]
+      ↓
+[PostgreSQL]
+      ↓
+[Feature Pipeline]
+      ↓
+[Scoring Engine]
+      ↓
+[API / Streamlit]
+      ↓
+[PDF Report + AI Summary]
 
 ---
 
