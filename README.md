@@ -1,6 +1,6 @@
 # Instagram Fake Follower Detector
 
-A data tool that scores Instagram profiles for fake and purchased followers, giving sponsors a clear signal before committing budget to an influencer deal.
+A production-style data system for evaluating influencer audience authenticity using behavioral signals and statistical heuristics, designed to support marketing spend decisions.
 
 **Built by [Tobi](https://www.linkedin.com/in/tobi-a-k-01/)**
 
