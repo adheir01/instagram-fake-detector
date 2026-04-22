@@ -2,7 +2,7 @@
 
 A production-style data system for evaluating influencer audience authenticity using behavioral signals and statistical heuristics, designed to support marketing spend decisions.
 
-**Built by [Tobi](https://www.linkedin.com/in/tobi-a-k-01/)**
+**Built by [Tobi](https://www.linkedin.com/in/tobi-a-k-01/)** Senior Data Analyst as a part of my data portfolio. :)
 
 ---
 
