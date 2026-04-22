@@ -85,22 +85,7 @@ Optional: Gemini API generates sponsor recommendation
     ↓
 Streamlit UI + PDF export
 ```
----
-```
-[Apify Actors]
-      ↓
-[Ingestion Layer]
-      ↓
-[PostgreSQL]
-      ↓
-[Feature Pipeline]
-      ↓
-[Scoring Engine]
-      ↓
-[API / Streamlit]
-      ↓
-[PDF Report + AI Summary]
-```
+
 ---
 
 ## Getting started
